@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+        
+    <title>Caravan</title>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLoginTitulo">Entre na sua conta</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu email">
+              </div>
+              <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+              </div>
+              <button type="submit" class="btn btn-primary d-block">Entrar</button>
+              <small lass="form-text text-muted">Esqueceu a senha ? <a href="#" class="text-primary">clique aqui</a>.</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Final Modal -->
+   
+    <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light py-3 box-shadow">
+        <a class="navbar-brand" href="index.html"><img src="img/caravan.svg" alt="Logo Caravan"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="local.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Locais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="local.html">California</a>
+                      <a class="dropdown-item" href="local.html">Paris</a>
+                      <a class="dropdown-item" href="local.html">Dublin</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="plano.html">Planos</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
+                </li>
+                <li class="nav-item ml-md-3" id="inscreva">
+                    <a class="btn btn-outline-primary" href="inscreva.html">Inscreva-se</a>
+                </li>      
+            </ul>    
+        </div>
+    </nav>
+    
+    <section>
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div class="col-12 py-5">
+                    <p class="h4" style="text-transform: uppercase">O MELHOR DESTINO DA SUA VIAGEM</p>
+                    <h3 class="display-4 text-primary">Descubra Dublin</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg">
+                    <img src="img/local/foto-1.jpg" alt="Foto 01" class="img-fluid mb-4">
+                    <img src="img/local/foto-2.jpg" alt="Foto 02" class="img-fluid mb-4">
+                    <img src="img/local/foto-3.jpg" alt="Foto 03" class="img-fluid mb-4">
+                </div>
+                <div class="col-lg">
+                    <img src="img/local/foto-4.jpg" alt="Foto 04" class="img-fluid mb-4">
+                    <img src="img/local/foto-5.jpg" alt="Foto 05" class="img-fluid mb-4" style="min-height: 444px;">
+                </div>
+                <div class="col-lg">
+                    <img src="img/local/foto-6.jpg" alt="Foto 06" class="img-fluid mb-4">
+                    <img src="img/local/foto-7.jpg" alt="Foto 07" class="img-fluid mb-4" style="min-height: 444px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mb-5">
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div class="col-12 py-5">
+                    <p class="h4" style="text-transform: uppercase">DESCUBRA O QUE ACONTECE NA CIDADE</p>
+                    <h3 class="display-4 text-primary">Próximos Eventos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-hover table-responsive-md">
+                      <thead>
+                        <tr>
+                          <th scope="col">Data</th>
+                          <th scope="col">Evento</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Ticket</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">23/10</th>
+                          <td>Julien Baker</td>
+                          <td>The Academy</td>
+                          <td><a href="#" class="btn btn-outline-secondary">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">23/10</th>
+                          <td>Julien Baker</td>
+                          <td>The Academy</td>
+                          <td><a href="#" class="btn btn-outline-secondary">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">23/10</th>
+                          <td>Julien Baker</td>
+                          <td>The Academy</td>
+                          <td><a href="#" class="btn btn-outline-secondary">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">23/10</th>
+                          <td>Julien Baker</td>
+                          <td>The Academy</td>
+                          <td><a href="#" class="btn btn-outline-secondary">Comprar Ticket</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">23/10</th>
+                          <td>Julien Baker</td>
+                          <td>The Academy</td>
+                          <td><a href="#" class="btn btn-outline-secondary">Comprar Ticket</a></td>
+                        </tr>
+                      </tbody>
+                    </table>        
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <h4 class="h5" style="text-transform: uppercase;">Páginas</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="plano.html" class="text-primary">Planos</a></li>
+                        <li><a href="contato.html" class="text-primary">Contato</a></li>
+                        <li><a href="inscreva.html" class="text-primary">Inscreva-se</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h4 class="h5" style="text-transform: uppercase;">Locais</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="locais.html" class="text-primary">California</a></li>
+                        <li><a href="locais.html" class="text-primary">Paris</a></li>
+                        <li><a href="locais.html" class="text-primary">Dublin</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h5" style="text-transform: uppercase;">Dados de contato</h4>
+                    <ul class="list-unstyled text-secondary">
+                        <li><a href="mailto: caravan@caravan.com.br" class="text-secondary">caravan@caravan.com.br</a></li>
+                        <li class="text-secondary"><a href="tel: 21999999999" class="text-secondary">21 99999-9999</a></li>
+                        <li>De seg. à Sex. das 8h às 18h</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h5 mb-3" style="text-transform: uppercase;">Redes Sociais</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="btn btn-outline-secondary d-block mb-3" style="max-width: 180px;">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-outline-secondary d-block mb-3" style="max-width: 180px;">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-outline-secondary d-block mb-3" style="max-width: 180px;">Youtube</a>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <section class="col-12 bg-primary text-white" style="text-align: center;">
+        <p class="mb-0 py-3">Caravan © 2017. Alguns direitos reservados.</p>
+    </section>
+   
+    <script type="text/javascript" src="js/jquery.js"></script>    
+    <script type="text/javascript" src="js/popper.js"></script>    
+    <script type="text/javascript" src="js/bootstrap.js"></script>    
+</body>
+</html>

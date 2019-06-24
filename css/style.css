@@ -1,0 +1,74 @@
+body {
+    padding-top: 76px;    
+}
+
+.box-shadow {
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, .1), 
+                0px 6px 6px 0 rgba(0, 0, 0, .1);
+}
+
+.alinhamentoCentro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mx-600 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.iconeImagem {
+    height: 100px;
+}
+
+@media only screen and (max-width: 615px) {
+    #inscreva {
+        margin-top: .8em;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #bob .display-4 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #perguntas a p {
+        font-size: 1rem;    
+    }
+    
+    #perguntas .collapse p {
+        font-size: .8rem;    
+    }
+}
+
+#bob {
+    background-image: url(../img/bg-quote.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+ul.listaPlanos li {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+ul.listaPlanos li:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+form.formularioBasico input {
+    padding: .8rem .75rem;
+    margin-bottom: 2rem;
+}
+
+ul.redes li {
+    margin-bottom: -0.1rem;
+}
